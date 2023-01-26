@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
             long = position.coords.longitude;
             lat = position.coords.latitude;
             
-            const api = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat},${long}?key=SVTAPZRTXMZP8X5A53CVQT2A6`
+            const api = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat},${long}?key=[INSERT YOUR KEY HERE]`
 
             fetch(api).then(response =>{
                 return response.json();
